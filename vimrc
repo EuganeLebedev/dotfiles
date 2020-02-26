@@ -28,6 +28,7 @@ set number
 set relativenumber
 
 
+set term=screen-256color
 " Крайне удобныя фишка. При входе в insert mode выполняется относительная
 " нумерация строк. В ином случае нумерация абсолютная
 autocmd InsertEnter * :set norelativenumber
